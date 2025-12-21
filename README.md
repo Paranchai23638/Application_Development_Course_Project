@@ -51,14 +51,30 @@ The application follows a **modular directory structure** for easy maintenance:
 
 ## 🚦 Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 - Node.js & npm  
-- Expo Go  
+- Expo Go (for mobile testing)  
 - Python 3.x  
-- MongoDB (optional: Compass)
+- MongoDB (optional: MongoDB Compass)
 
-### Setup
+---
+
+### 🔧 Setup Instructions
+
+#### 1. Clone the Repository
 ```bash
 git clone [your-repo-link]
+`````
+#### 2. Install Frontend Dependencies
+```bash
 npm install
+`````
+#### 3. Run the Backend
+- Start the Flask server
+- Use Ngrok to create a secure tunnel for mobile access
+#### 4. Start the Application
+```bash
 npx expo start
+`````
+
+
