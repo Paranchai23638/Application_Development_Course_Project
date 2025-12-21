@@ -1,4 +1,3 @@
----
 
 # ⚡ The Enchanted Quizbook
 
