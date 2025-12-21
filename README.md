@@ -39,20 +39,13 @@ Built with **React Native and Expo**, the app ensures a consistent user interfac
 
 ## 🏗️ Project Structure
 
-The application follows a **modular directory structure** for scalability and maintainability:
+The application follows a **modular directory structure** for easy maintenance:
 
-/app
-├── Main application logic
-/quiz
-├── Patronus quiz module
-├── Forbidden Forest quiz module
-leaderboard.tsx
-├── Global leaderboard UI
-/assets
-├── Images, fonts, icons
-/backend
-├── Flask API
-├── MongoDB integration
+- **/app**: Contains the main application logic  
+- **/quiz**: Houses the quiz logic for both Patronus and Forbidden Forest modules  
+- **leaderboard.tsx**: Manages the display of high scores  
+- **/assets**: Stores magical-themed images, fonts, and icons  
+- **/backend**: (Flask/Python) Handles API requests and database interactions with MongoDB 
 
 ---
 
